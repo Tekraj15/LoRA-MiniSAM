@@ -1,0 +1,5 @@
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: ["qkv"] # Targeting Q, K, V projection layers
