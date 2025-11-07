@@ -1,0 +1,4 @@
+# config for inference adapter
+inference:
+  modality: "CT"  # CT / MRI / US
+  adapter_path: "checkpoints/qlora_CT_final.pt"
